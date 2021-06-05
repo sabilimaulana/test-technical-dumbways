@@ -37,3 +37,15 @@ dengan format seperti ['S','A','B','I','L','I']. example:
 
 flag(['S','A','B','I','L','I'])
 
+==============================================================================================================================================================
+Soal 4a
+
+Pada soal ini peserta diminta membuat query yang dapat menampilkan data tertentu
+sesuai dengan yang diminta pada soal
+
+==============================================================================================================================================================
+
+Soal 4b
+
+Pada soal ini peserta diminta membuat sebuah web CRUD berdasarkan data pokemon
+yang berada pada database mysql.
