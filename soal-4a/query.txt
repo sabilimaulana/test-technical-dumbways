@@ -1,0 +1,11 @@
+// query untuk menampilkan semua data pada tabel pokemon
+
+SELECT * FROM pokemon_tb
+
+// query untuk menampilkan semua data pokemon berdasarkan elemen tertentu
+
+SELECT * FROM bridge_tb JOIN pokemon_tb ON bridge_tb.pokemon_id = pokemon_tb.id JOIN element_tb ON bridge_tb.element_id = element_tb.id WHERE element_tb.name = 'Fire'
+
+// query untuk menampilkan semua data pada semua tabel 
+
+SELECT * FROM bridge_tb JOIN pokemon_tb ON bridge_tb.pokemon_id = pokemon_tb.id JOIN element_tb ON bridge_tb.element_id = element_tb.id
